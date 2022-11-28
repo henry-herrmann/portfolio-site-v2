@@ -1,0 +1,7 @@
+Sitemap: https://herrmann.page/sitemap.xml
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
+Disallow: /legal-notice
