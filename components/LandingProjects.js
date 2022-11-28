@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function LandingProjects({ json }){
     const names = json.map((item) => 
         <Link key={item.name} href={`https://github.com/henry-herrmann/${item.name}`}>
-            <div className='bg-herrmann-blue-gray h-[18vh] w-[32vw] sm:h-[18-vh] sm:w-[25vw] md:h-[15vh] md:w-[19vw] xl:h-[15vh] xl:w-[15vw] rounded-md m-5 hover:cursor-pointer flex flex-col items-center justify-center hover:shadow-md'>
+            <div className='bg-herrmann-blue-gray h-[18vh] w-[32vw] sm:h-[18-vh] sm:w-[25vw] md:h-[15vh] md:w-[19vw] xl:h-[15vh] xl:w-[15vw] rounded-md m-5 hover:cursor-pointer text-center flex flex-col items-center justify-center hover:shadow-md'>
                 <div className="flex flex-col xl:flex-row justify-center items-center">
                     <Image
                         src="/icons/info.svg"
                         alt="Logo"
                         width={20}
                         height={20}/>
-                    <p className='ml-2'>{item.name}</p>
+                    <p className='xl:ml-2'>{item.name}</p>
                 </div>
                 <div className="flex flex-col xl:flex-row justify-center items-center">
                     <Image
@@ -19,7 +19,7 @@ export default function LandingProjects({ json }){
                         alt="Logo"
                         width={20}
                         height={20}/>
-                    <p className='ml-2'>{item.language == null ? "N/A" : item.language}</p>
+                    <p className='xl:ml-2'>{item.language == null ? "N/A" : item.language}</p>
                 </div>
             </div>
         </Link>
