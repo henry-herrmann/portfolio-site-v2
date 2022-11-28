@@ -17,7 +17,7 @@ export default function Footer(){
                         <h1 className='text-white font-bold text-2xl mb-1'>Social</h1>
                         <div className='flex flex-col'>
                             <Link href="https://github.com/henry-herrmann"><div className='text-white font-light mt-1'>GitHub</div></Link>
-                            <Link href="https://instagram.com/henry_herrm"><div className='text-white font-light mt-1'>Instargam</div></Link>
+                            <Link href="https://instagram.com/henry_herrm"><div className='text-white font-light mt-1'>Instagram</div></Link>
                         </div>
                     </div>
                     <div className='md:m-10 pt-10 md:p-0'>
