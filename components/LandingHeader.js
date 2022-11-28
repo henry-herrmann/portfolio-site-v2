@@ -21,7 +21,7 @@ export default function Header() {
                   <div className='flex-none items-center p-5 cursor-pointer invisible sm:visible'>
                     <Link href="">
                         <Image
-                          src="/logo.svg"
+                          src="/logo/logo.svg"
                           alt="rjks Logo"
                           width={60}
                           height={60}

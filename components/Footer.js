@@ -29,7 +29,7 @@ export default function Footer(){
                 </div>
                 <div className='flex flex-col justify-center items-center md:m-10 p-10 md:p-0 text-center md:text-left'>
                     <Image
-                        src="/logo_white.svg"
+                        src="/logo/logo_white.svg"
                         alt="Logo"
                         width={90}
                         height={60}/>

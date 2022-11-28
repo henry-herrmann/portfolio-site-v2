@@ -27,6 +27,9 @@ export default function LandingTitle(){
                     <p className='text-xl mt-2 ml-2 '>Producing reliable software.</p>
                 </div>
             </div>
+            <div className='flex items-center justify-center mt-16 sm:mt-20 animate-bounce'>
+                <Image src="/icons/arrow_down.svg" alt="Arrow" width={50} height={50}/>
+            </div>
         </div>
     );
 }

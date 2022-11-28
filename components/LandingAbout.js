@@ -1,6 +1,6 @@
 export default function LandingAbout() {
     return (
-        <div id="about" className="flex flex-col justify-center items-center sm:mb-40 mt-16 sm:mt-48">
+        <div id="about" className="flex flex-col justify-center items-center mb-14 sm:mb-40 mt-14 sm:mt-36">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:items-center mb-4 justify-items-start mb-9'>
                     <h1 className="mt-6 xl:mt-0 font-bold text-4xl pl-4">About me</h1>
