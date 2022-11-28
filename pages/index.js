@@ -14,7 +14,7 @@ export default function Home({ json }) {
         <title>Henry Herrmann</title>
         <meta name="description" content="herrmann.page" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/logo_dark.svg" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
       <div className='min-h-screen bg-gradient-to-r from-gray-100 to-blue-200'>
         <LandingHeader />
