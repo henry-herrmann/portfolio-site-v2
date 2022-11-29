@@ -1,10 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Fragment} from 'react'
 
 import LandingHeader from '../components/LandingHeader';
 import BlockContent from '../components/block/BlockContent';
-import BlockHeading from '../components/block/BlockContent';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -16,16 +14,15 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/logo_dark.svg" />
             </Head>
-            <div className='min-h-screen bg-hero bg-cover'>
+            <div className='min-h-screen bg-gradient-to-r from-gradient-1 via-gradient-2 to-gradient-3'>
                 <LandingHeader />
-                <div className="flex justify-center flex-col">
+                <div className="flex justify-center flex-col mb-14">
                     <div className='flex justify-center'>
                         <div className='mr-8 ml-8 text-center max-w-screen-md mt-36 sm:mt-40 ml:m-0 mr:m-0'>
                             <h1 className='font-bold text-5xl mb-4 mr-4 ml-4'>Legal Notice</h1>
                         </div>
                     </div>
                 </div>
-                <BlockHeading />
                 <BlockContent>
                   <div>
                       <strong className='font-semibold text-2xl'>Entries referred to § 5 TMG</strong><br/>
