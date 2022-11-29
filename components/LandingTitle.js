@@ -18,11 +18,11 @@ export default function LandingTitle(){
                 <div className='mt-4 sm:m-3 ww-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><PrimaryButton text='Contact me' href="mailto:henry@herrmann.page"/></div>
             </div>
             <div className='flex flex-col sm:flex-row justify-center mt-7'>
-                <div className='flex justify-center sm:mr-10 sm:ml-10'>
+                <div className='flex justify-center items-center sm:mr-10 sm:ml-10 md:ml-0'>
                     <p className="text-4xl">1.</p> 
                     <p className='text-xl mt-2 ml-2'>Years of experience in programming.</p>
                 </div>
-                <div className='flex justify-center'>
+                <div className='flex justify-center items-center sm:mr-10 md:mr-0'>
                     <p className="text-4xl">2.</p> 
                     <p className='text-xl mt-2 ml-2 '>Producing reliable software.</p>
                 </div>

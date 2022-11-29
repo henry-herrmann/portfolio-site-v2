@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function LandingProjects({ json }){
     const names = json.map((item) => 
         <Link key={item.name} href={`https://github.com/henry-herrmann/${item.name}`}>
-            <div className='bg-herrmann-blue-gray h-[18vh] w-[32vw] sm:h-[18-vh] sm:w-[25vw] md:h-[15vh] md:w-[19vw] xl:h-[15vh] xl:w-[15vw] rounded-md m-5 hover:cursor-pointer text-center flex flex-col items-center justify-center hover:shadow-md'>
+            <div className='bg-white h-[18vh] w-[32vw] sm:h-[18-vh] sm:w-[25vw] md:h-[15vh] md:w-[19vw] xl:h-[15vh] xl:w-[15vw] rounded-md m-5 hover:cursor-pointer text-center flex flex-col items-center justify-center hover:shadow-md'>
                 <div className="flex flex-col xl:flex-row justify-center items-center">
                     <Image
                         src="/icons/info.svg"

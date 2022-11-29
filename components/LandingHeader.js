@@ -41,7 +41,7 @@ export default function Header() {
                               </Link>
                           ))}
                           <Link href="mailto:henry@herrmann.page">
-                            <div className='sm:w-auto w-[70vw] min-w-[100px] bg-herrmann-blue px-3 py-2 rounded-md text-sm font-medium hover:shadow-md hover:bg-herrmann-blue-gray hover:cursor-pointer transition'>
+                            <div className='sm:w-auto w-[70vw] min-w-[100px] bg-herrmann-red px-3 py-2 rounded-md text-sm font-medium hover:shadow-md hover:bg-herrmann-blue-gray hover:cursor-pointer transition'>
                               <p className="flex justify-center text-white">Contact</p>
                             </div>
                           </Link>
