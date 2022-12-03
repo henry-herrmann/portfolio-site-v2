@@ -7,7 +7,7 @@ export default function LandingAbout() {
                 </div>
             </div>
             <div className="flex flex-col xl:flex-row ">
-                <div className="flex flex-col bg-white p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
+                <div className="flex flex-col bg-hwhite p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
                     <h1 className="m-2 xl:mt-3 text-xl flex justify-center">Personal information</h1>
                     <p className="ml-7 mr-10">Hey, I'm Henry and I'm a computer science student. I frequently work on various projects ranging from backend to full app solutions.</p>
                 </div>
