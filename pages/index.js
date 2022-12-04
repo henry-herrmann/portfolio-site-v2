@@ -27,7 +27,7 @@ export default function Home({ json }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
   const json = await res.json();
 
