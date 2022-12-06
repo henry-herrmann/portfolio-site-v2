@@ -12,7 +12,7 @@ export default function Home({ json }) {
     <Fragment>
       <Head>
         <title>Henry Herrmann</title>
-        <meta name="description" content="herrmann.page" />
+        <meta name="description" content="Henry Herrmann Developer Dart JavaScript herrmann.page Reliant Software Student" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/logo/logo.jpg" />
       </Head>
