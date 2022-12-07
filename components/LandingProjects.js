@@ -54,7 +54,7 @@ export default function LandingProjects({ json }){
         <div id="projects" className="flex flex-col justify-center items-center">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:items-center mb-4 justify-items-start mb-9'>
-                    <h1 className="mt-6 xl:mt-0 font-bold text-4xl pl-4">My projects</h1>
+                    <div className="mt-6 xl:mt-0 font-bold text-4xl pl-4">My projects</div>
                 </div>
             </div>
             <div className="flex flex-col xl:flex-row xl:justify-center items-center md:mb-32">

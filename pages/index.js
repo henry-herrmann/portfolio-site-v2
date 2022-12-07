@@ -11,8 +11,8 @@ export default function Home({ json }) {
   return (
     <Fragment>
       <Head>
-        <title>Henry Herrmann</title>
-        <meta name="description" content="Henry Herrmann Developer Dart JavaScript herrmann.page Reliant Software Student" />
+        <title>Henry Herrmann Software Developer</title>
+        <meta name="description" content="HHenry Herrmann Software Developer producing reliable software including mobile apps, REST APIs and much more. Coding in JS, Dart and Java" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/logo/logo.jpg" />
       </Head>
