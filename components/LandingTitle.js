@@ -9,7 +9,7 @@ export default function LandingTitle(){
         <div className='flex h-auto flex-col sm:block justify-between'>
             <div className='flex justify-center'>
                 <div className='mr-8 ml-8 text-center max-w-screen-md mt-36 sm:mt-40 ml:m-0 mr:m-0'>
-                    <h2 className='font-bold text-5xl mb-4 mr-4 ml-4'>Henry Herrmann</h2>
+                    <h1 className='font-bold text-5xl mb-4 mr-4 ml-4'>Henry Herrmann</h1>
                     <p className='text-xl font-light'>Java, JS and Dart Developer.</p>
                 </div>
             </div>
