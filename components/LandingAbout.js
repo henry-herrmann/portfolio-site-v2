@@ -3,7 +3,7 @@ export default function LandingAbout() {
         <div id="about" className="flex flex-col justify-center items-center mb-12 md:mb-20 mt-14 xl:mt-36">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:items-center mb-4 justify-items-start mb-9'>
-                    <div className="mt-6 xl:mt-0 font-bold text-4xl pl-4">About me</div>
+                    <h2 className="mt-6 xl:mt-0 font-bold text-4xl pl-4">About me</h2>
                 </div>
             </div>
             <div className="flex flex-col xl:flex-row ">
