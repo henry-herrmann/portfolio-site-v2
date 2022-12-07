@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="flex justify-center flex-col mb-14">
                     <div className='flex justify-center'>
                         <div className='mr-8 ml-8 text-center max-w-screen-md mt-36 sm:mt-40 ml:m-0 mr:m-0'>
-                            <h1 className='font-bold text-5xl mb-4 mr-4 ml-4'>Legal Notice</h1>
+                            <div className='font-bold text-5xl mb-4 mr-4 ml-4'>Legal Notice</div>
                         </div>
                     </div>
                 </div>
