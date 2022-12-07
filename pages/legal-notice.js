@@ -9,12 +9,12 @@ export default function Home() {
     return (
         <Fragment>
             <Head>
-                <title>Henry Herrmann</title>
-                <meta name="description" content="herrmann" />
+                <title>Henry Herrmann Software Developer</title>
+                <meta name="description" content="Henry Herrmann Software Developer producing reliable software including mobile apps, REST APIs and much more. Coding in JS, Dart and Java" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" href="/logo_dark.svg" />
+                <link rel="icon" href="/logo/logo.jpg" />
             </Head>
-            <div className='min-h-screen bg-gradient-to-r from-gradient-1 via-gradient-2 to-gradient-3'>
+            <div className='min-h-screen bg-gradient-to-r from-gradient-1 2 to-gradient-2'>
                 <LandingHeader />
                 <div className="flex justify-center flex-col mb-14">
                     <div className='flex justify-center'>
