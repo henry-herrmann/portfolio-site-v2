@@ -10,7 +10,7 @@ export default function Footer(){
                         <div className='text-white font-bold text-2xl mb-1'>Links</div>
                         <div className='flex flex-col'>
                             <a href="mailto:henry@herrmann.page" className='text-white font-light mt-1'>Contact</a>
-                            <Link href="https://link.rjks.us/support"><div className='text-white font-light mt-1'>RJKS Support</div></Link>
+                            <Link href="https://www.linkedin.com/in/henryherrmann/"><div className='text-white font-light mt-1'>LinkedIn</div></Link>
                         </div>
                     </div>
                     <div className='md:m-10 pt-10 md:p-0'>
