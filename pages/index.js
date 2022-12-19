@@ -19,7 +19,7 @@ export default function Home({ json }) {
         <meta property="og:image" content="https://herrmann.page/logo/logo.jpg" key="ogimage" />
         <meta property="og:site_name" content="Software Developer" key="ogsitename" />
         <meta property="og:title" content="Henry Herrmann" key="ogtitle" />
-        <meta property="og:description" content="Production reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
+        <meta property="og:description" content="Producing reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
         <link rel="icon" href="/logo/logo.jpg" />
       </Head>
       <div className='min-h-screen bg-gradient-to-r from-gradient-1 to-gradient-2'>
