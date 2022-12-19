@@ -17,8 +17,8 @@ export default function Home({ json }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content="https://herrmann.page" key="ogurl" />
         <meta property="og:image" content="https://herrmann.page/logo/logo.jpg" key="ogimage" />
-        <meta property="og:site_name" content="Henry Herrmann Software Developer" key="ogsitename" />
-        <meta property="og:title" content="Henry Herrmann Software Developer" key="ogtitle" />
+        <meta property="og:site_name" content="Software Developer" key="ogsitename" />
+        <meta property="og:title" content="Henry Herrmann" key="ogtitle" />
         <meta property="og:description" content="Production reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
         <link rel="icon" href="/logo/logo.jpg" />
       </Head>
