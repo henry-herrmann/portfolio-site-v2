@@ -19,7 +19,7 @@ export default function Header() {
           <div className="mx-auto w-screen px-9 sm:px-15 lg:px-52 backdrop-blur-md fixed">
               <div className="relative flex h-[9vh] items-center justify-between">
                   <div className='flex-none items-center p-5 cursor-pointer invisible sm:visible'>
-                    <Link href="">
+                    <Link href="https://herrmann.page">
                         <Image
                           src="/logo/logo.svg"
                           alt="rjks Logo"
@@ -28,7 +28,7 @@ export default function Header() {
                         />
                     </Link>
                   </div>
-                  <p className='text-2xl flex flex-1 invisible sm:visible sm:justify-start lg:justify-start'>Henry Herrmann</p>
+                  <Link className='text-2xl flex flex-1 invisible sm:visible sm:justify-start lg:justify-start' href="https://herrmann.page">Henry Herrmann</Link>
                   <div className="hidden sm:ml-6 sm:block">
                       <div className="flex space-x-4">
                           {navigation.map((item) => (
