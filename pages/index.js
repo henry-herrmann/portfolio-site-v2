@@ -22,13 +22,11 @@ export default function Home({ json }) {
         <meta property="og:description" content="Producing reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
         <link rel="icon" href="/logo/logo.jpg" />
       </Head>
-      <div className='min-h-screen bg-gradient-to-r from-gradient-1 to-gradient-2'>
-        <LandingHeader />
-        <LandingTitle />
-        <LandingAbout />
-        <LandingProjects json={json}/>
-        <Footer />
-      </div>
+      <LandingHeader />
+      <LandingTitle />
+      <LandingAbout />
+      <LandingProjects json={json}/>
+      <Footer />
     </Fragment>
   )
 }

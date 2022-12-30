@@ -12,9 +12,11 @@ module.exports = {
         'herrmann-gray-light': '#e9ecef',
         'herrmann-gray-dark': '#495867',
         'herrmann-blue-gray': '#cadde8',
-        'gradient-1': '#e9eef2',
-        'gradient-2': '#BDD5EA',
-        'gradient-3': '#5DA9E9'
+        'white-gray': '#F2F3F5',
+        'gradient-1': '#ffffff',
+        'gradient-2': '#788bff',
+        'gradient-3': '#adb5bd',
+        'gradient-4': '#adb5bd'
       }
     },
   },
