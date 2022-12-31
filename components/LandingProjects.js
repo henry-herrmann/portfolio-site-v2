@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from "next/image";
+import { useEffect } from 'react';
 
 export default function LandingProjects({ json }){
     if(!(json instanceof Array)){
@@ -51,7 +52,7 @@ export default function LandingProjects({ json }){
     );
 
     return (
-        <div id="projects" className="flex flex-col justify-center items-center">
+        <div id="projects" className="js-show-on-scroll flex flex-col justify-center items-center">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:items-center mb-4 justify-items-start mb-2'>
                     <h3 className="mt-6 xl:mt-0 font-bold text-4xl">My projects</h3>

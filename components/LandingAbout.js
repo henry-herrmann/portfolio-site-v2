@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function LandingAbout() {
     return (
-        <div id="about" className="flex flex-col justify-center items-center mb-12 md:mb-20">
+        <div id="about" className="js-show-on-scroll flex flex-col justify-center items-center mb-12 md:mb-20">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:flex-row justify-items-start mb-2'>
                     <h2 className="mt-14 xl:mt-24 font-bold text-4xl">About me</h2>

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 
 import LandingHeader from '../components/LandingHeader'
 import LandingTitle from '../components/LandingTitle'
@@ -9,6 +9,23 @@ import Footer from '../components/Footer'
 
 
 export default function Home({ json }) {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add("animate-fadeIn");
+        }
+      });
+    });
+
+    const targets = document.querySelectorAll(".js-show-on-scroll");
+
+    targets.forEach((target) => {
+      observer.observe(target);
+    });
+    
+  });
+
   return (
     <Fragment>
       <Head>

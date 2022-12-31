@@ -29,10 +29,12 @@ export default function Footer(){
                 </div>
                 <div className='flex flex-col justify-center items-center md:m-10 p-10 md:p-0 text-center md:text-left'>
                     <Image
+                        priority={true}
                         src="/logo/logo_white.svg"
                         alt="Logo"
                         width={90}
-                        height={60}/>
+                        height={90}
+                        />
                     <p className='text-sm text-white'>herrmann.page © 2022</p>
                 </div>
             </div>
