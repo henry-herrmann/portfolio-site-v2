@@ -16,7 +16,7 @@ export default function LandingTitle(){
     });
 
     return (
-        <div className='flex h-[100vh] flex-col sm:block justify-between bg-gradient-to-tr from-gradient-1 to-gradient-2'>
+        <div className='flex h-auto sm:h-[100vh] flex-col sm:block justify-between bg-gradient-to-tr from-gradient-1 to-gradient-2'>
             <div className='flex justify-center items-center'>
                 <div className='text-center max-w-screen-md mt-36 sm:mt-64 ml:m-0 mr:m-0'>
                     <h1 className='font-bold text-5xl mb-4 mr-4 ml-4 fade-animation transition-opacity duration-[1200ms] delay-200 opacity-0 motion-reduce:transition-none'>Henry Herrmann</h1>
@@ -41,7 +41,7 @@ export default function LandingTitle(){
                     <p className='text-xl mt-2 ml-2 '>Reliable software</p>
                 </div>
             </div>
-            <div className='flex items-center justify-center mt-10 mb-10 sm:mt-24 animate-bounce fade-animation transition-opacity duration-[1200ms] delay-[1700ms] opacity-0 motion-reduce:transition-none'>
+            <div className='flex items-center justify-center mt-10 mb-16 sm:mt-24 animate-bounce fade-animation transition-opacity duration-[1200ms] delay-[1700ms] opacity-0 motion-reduce:transition-none'>
                 <Image src="/icons/arrow_down.svg" alt="Arrow" width={50} height={50}/>
             </div>
         </div>
