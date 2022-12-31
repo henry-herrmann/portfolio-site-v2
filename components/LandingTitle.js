@@ -41,7 +41,7 @@ export default function LandingTitle(){
                     <p className='text-xl mt-2 ml-2 '>Reliable software</p>
                 </div>
             </div>
-            <div className='flex items-center justify-center mt-10 mb-4 sm:mt-24 animate-bounce fade-animation transition-opacity duration-[1200ms] delay-[1700ms] opacity-0 motion-reduce:transition-none'>
+            <div className='flex items-center justify-center mt-10 mb-10 sm:mt-24 animate-bounce fade-animation transition-opacity duration-[1200ms] delay-[1700ms] opacity-0 motion-reduce:transition-none'>
                 <Image src="/icons/arrow_down.svg" alt="Arrow" width={50} height={50}/>
             </div>
         </div>
