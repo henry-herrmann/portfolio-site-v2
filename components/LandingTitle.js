@@ -24,10 +24,10 @@ export default function LandingTitle(){
                 </div>
             </div>
             <div className='sm:flex sm:justify-center w-[100vw] sm:w-auto fade-animation transition-opacity duration-[1200ms] delay-[300ms] opacity-0 motion-reduce:transition-none'>
-                <div className='mt-10 sm:m-3 w-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><SecondaryButton text='Github Profile' href="https://github.com/henry-herrmann" /></div>
-                <div className='mt-4 sm:m-3 ww-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><PrimaryButton text='Contact me' href="mailto:henry@herrmann.page"/></div>
+                <div className='mt-7 sm:m-3 sm:mt-5 w-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><SecondaryButton text='Github Profile' href="https://github.com/henry-herrmann" /></div>
+                <div className='mt-4 sm:m-3 sm:mt-5 ww-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><PrimaryButton text='Contact me' href="mailto:henry@herrmann.page"/></div>
             </div>
-            <div className='flex flex-col sm:flex-row justify-center mt-14 sm:mt-8'>
+            <div className='flex flex-col sm:flex-row justify-center mt-12 sm:mt-8'>
                 <div className='flex flex-col justify-center items-center mr-10 ml-10 sm:ml-0 fade-animation transition-opacity duration-[1200ms] delay-[400ms] opacity-0 motion-reduce:transition-none'>
                     <div className="rounded-lg bg-white w-20 h-20 flex justify-center items-center">
                         <Image className="ml-1" src="/icons/clock.svg" width={46} height={46} alt="Clock image"/>
