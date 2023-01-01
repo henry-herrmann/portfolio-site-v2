@@ -65,7 +65,7 @@ export default function Header() {
               </div>
             </div>
   
-            <Disclosure.Panel className="sm:hidden fixed w-screen mt-16 backdrop-blur-md">
+            <Disclosure.Panel className="sm:hidden fixed w-screen mt-16 backdrop-blur-md z-10">
               <div className="space-y-1 ml-4 px-2 pt-2 pb-3">
                 {mobile_navigation.map((item) => (
                   <Disclosure.Button
