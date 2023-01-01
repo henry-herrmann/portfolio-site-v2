@@ -52,8 +52,8 @@ export default function Home({ json }) {
 }
 
 export async function getStaticProps() {
-  //const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
-  const json = [] //await res.json();
+  const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
+  const json = await res.json();
 
   return { props: { json } }
 }
