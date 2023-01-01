@@ -54,13 +54,13 @@ export default function LandingProjects({ json }){
     return (
         <div id="projects" className="js-show-on-scroll flex flex-col justify-center items-center opactiy-0 translate-x-[-100%] transition-all duration-[1.5s] motion-reduce:transition-none">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
-                <div className='xl:flex xl:items-center mb-4 justify-items-start mb-2'>
+                <div className='xl:flex xl:items-center mb-4 justify-items-start mb-1'>
                     <h3 className="mt-6 xl:mt-0 font-bold text-4xl">My projects</h3>
                 </div>
             </div>
-            <hr className="text-center mb-10 w-56 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700"/>
+            <hr className="text-center mb-8 xl:mb-10 w-56 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700"/>
             <div className="flex flex-col xl:flex-row xl:justify-center items-center md:mb-32">
-                <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-0 mt-5 xl:mt-0'>
+                <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-4 gap-0xl:mt-0'>
                     {names}
                 </div>
             </div>

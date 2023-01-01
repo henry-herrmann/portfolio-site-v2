@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 export default function LandingAbout() {
     return (
-        <div id="about" className="js-show-on-scroll flex flex-col justify-center items-center mb-12 md:mb-20 opactiy-0 translate-x-[-100%] transition-all duration-[1.5s] motion-reduce:transition-none">
+        <div id="about" className="js-show-on-scroll flex flex-col justify-center items-center mb-6 xl:mb-20 opactiy-0 translate-x-[-100%] transition-all duration-[1.5s] motion-reduce:transition-none">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
-                <div className='xl:flex xl:flex-row justify-items-start mb-2'>
+                <div className='xl:flex xl:flex-row justify-items-start mb-1'>
                     <h2 className="mt-14 xl:mt-24 font-bold text-4xl">About me</h2>
                 </div>
             </div>
-            <hr className="text-center mb-10 w-52 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700"/>
+            <hr className="text-center mb-8 xl:mb-10 w-52 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700"/>
             <div className="flex flex-col xl:flex-row ">
                 <div className="flex flex-col bg-white-gray p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
                     <div className="px-2 mb-2 text-xl flex justify-center">Personal information</div>
