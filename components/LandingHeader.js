@@ -16,7 +16,7 @@ export default function Header() {
       <Disclosure as="nav" className="bg-white">
         {({ open }) => (
           <>
-          <div className="mx-auto w-screen px-9 sm:px-15 lg:px-52 backdrop-blur-md fixed">
+          <div className="mx-auto w-screen px-9 sm:px-15 lg:px-52 backdrop-blur-md fixed z-10">
               <div className="relative flex h-[9vh] items-center justify-between">
                   <div className='flex-none items-center p-5 cursor-pointer invisible sm:visible'>
                     <Link href="https://herrmann.page">

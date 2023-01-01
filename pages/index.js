@@ -13,7 +13,10 @@ export default function Home({ json }) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if(entry.isIntersecting) {
-          entry.target.classList.add("animate-fadeIn");
+          entry.target.classList.add("opacity-1");
+          entry.target.classList.add("translate-x-[0%]");
+          entry.target.classList.remove("opacity-0");
+          entry.target.classList.remove("translate-x-[-100%]")
         }
       });
     });
@@ -49,8 +52,8 @@ export default function Home({ json }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
-  const json = await res.json();
+  //const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
+  const json = [] //await res.json();
 
   return { props: { json } }
 }
