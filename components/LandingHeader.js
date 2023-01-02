@@ -36,6 +36,7 @@ export default function Header() {
                                   key={item.name}
                                   href={item.href}
                                   className='hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium'
+                                  scroll={false}
                               >
                               {item.name}
                               </Link>
