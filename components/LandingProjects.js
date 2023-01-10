@@ -3,7 +3,7 @@ import Image from "next/image";
 import PrimaryButton from "../components/buttons/PrimaryButton";
 
 export default function LandingProjects({ json }){
-    if(!(json instanceof Array)){
+    /*if(!(json instanceof Array)){
         return [
             <Link key={item.name} href={`https://github.com/henry-herrmann/portfolio-site-v2`}>
                 <div className='bg-white h-[18vh] w-[32vw] sm:h-[18-vh] sm:w-[25vw] md:h-[15vh] md:w-[19vw] xl:h-[15vh] xl:w-[15vw] rounded-md m-5 hover:cursor-pointer text-center flex flex-col items-center justify-center hover:shadow-md'>
@@ -49,7 +49,7 @@ export default function LandingProjects({ json }){
                 </div>
             </div>
         </Link>
-    );
+    );*/
 
     return (
         <div id="projects" className="flex flex-col-reverse xl:flex-row xl:justify-center items-center mb-40 mt-9 xl:mt-28 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">

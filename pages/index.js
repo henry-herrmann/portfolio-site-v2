@@ -8,7 +8,7 @@ import LandingProjects from '../components/LandingProjects'
 import Footer from '../components/Footer'
 
 
-export default function Home({ json }) {
+export default function Home(/*{ json }*/) {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -44,15 +44,15 @@ export default function Home({ json }) {
       <LandingHeader />
       <LandingTitle />
       <LandingAbout />
-      <LandingProjects json={json}/>
+      <LandingProjects /*json={json}*//>
       <Footer />
     </Fragment>
   )
 }
 
-export async function getStaticProps() {
+/*export async function getStaticProps() {
   const res = await fetch("https://api.github.com/users/henry-herrmann/repos");
   const json = await res.json();
 
   return { props: { json } }
-}
+}*/
