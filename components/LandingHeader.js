@@ -35,21 +35,21 @@ export default function Header() {
                               <Link
                                   key={item.name}
                                   href={item.href}
-                                  className='hover:bg-gray-100 block px-3 py-2 rounded-md text-base font-medium'
+                                  className='hover:bg-herrmann-gray-light block px-3 py-2 rounded-md text-base font-medium'
                                   scroll={false}
                               >
                               {item.name}
                               </Link>
                           ))}
                           <Link href="mailto:henry@herrmann.page">
-                            <div className='sm:w-auto w-[70vw] min-w-[100px] bg-herrmann-red px-3 py-2 rounded-md text-sm font-medium hover:shadow-md hover:bg-herrmann-blue-gray hover:cursor-pointer transition'>
+                            <div className='sm:w-auto w-[70vw] min-w-[100px] bg-herrmann-blue px-3 py-2 rounded-md text-sm font-medium hover:shadow-md hover:shadow-lg hover:cursor-pointer transition'>
                               <p className="flex justify-center text-white">Contact</p>
                             </div>
                           </Link>
                       </div>
               </div>
-              <div className="flex inset-y-0 left-100 flex items-center sm:hidden">
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 hover:bg-herrmann-gray focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <div className="flex inset-y-0 left-100 items-center sm:hidden">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 hover:bg-gray-300">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

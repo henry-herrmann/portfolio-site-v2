@@ -14,9 +14,7 @@ export default function Home({ json }) {
       entries.forEach((entry) => {
         if(entry.isIntersecting) {
           entry.target.classList.add("opacity-1");
-          entry.target.classList.add("translate-x-[0%]");
           entry.target.classList.remove("opacity-0");
-          entry.target.classList.remove("translate-x-[-100%]")
         }
       });
     });
@@ -41,7 +39,7 @@ export default function Home({ json }) {
         <meta property="og:site_name" content="Software Developer" key="ogsitename" />
         <meta property="og:title" content="Henry Herrmann" key="ogtitle" />
         <meta property="og:description" content="Producing reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
-        <link rel="icon" href="/logo/logo.jpg" />
+        <link rel="icon" href="/logo/logo_white.svg" />
       </Head>
       <LandingHeader />
       <LandingTitle />

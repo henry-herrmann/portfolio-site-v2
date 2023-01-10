@@ -1,30 +1,54 @@
 import Image from 'next/image';
+import Link from 'next/link';
+
+import PrimaryButton from './buttons/PrimaryButton';
 
 export default function LandingAbout() {
     return (
-        <div id="about" className="js-show-on-scroll flex flex-col justify-center items-center mb-6 xl:mb-20 opactiy-0 translate-x-[-100%] transition-all duration-[1.5s] motion-reduce:transition-none">
+        <div id="about" className="flex flex-col xl:flex-row xl:justify-center items-center mb-16 xl:mb-36 mt-12 md:mt-16 xl:mt-28 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
-                <div className='xl:flex xl:flex-row justify-items-start mb-1'>
-                    <h2 className="mt-14 xl:mt-24 font-bold text-4xl">About me</h2>
+                <div className='xl:flex xl:items-center mb-4 justify-items-start'>
+                    <Image className="hidden xl:block fill-current text-green-600" src="/icons/code.svg" alt="Code" width={35} height={25}/>
+                    <h1 className="mt-6 xl:mt-0 font-bold text-3xl pl-4">Proficient at programming</h1>
+                </div>
+                <p className="text-xl font-light">My name is Henry and I have been programming in many different languages, since the age of 13. As of now, I am studying Computer Science at the Ruhr-Universität in Bochum.</p>
+                <div className='mt-4 flex items-center flex-col sm:flex-row justify-center xl:justify-start'>
+                    <div className='flex items-center mt-5 sm:mr-5'>
+                        <Image src="/icons/clock_blue.svg" alt="Bolt" width={30} height={30}/>
+                        <p className='ml-3 text-center font-light'>Reliable software</p>
+                    </div>
+                    <div className='flex items-center mt-5 sm:ml-5'>
+                        <Image src="/icons/tool_blue.svg" alt="Rocket" width={30} height={30}/>
+                        <p className='ml-2 text-center font-light'>Years of experience</p>
+                    </div>
                 </div>
             </div>
-            <hr className="text-center mb-8 xl:mb-10 w-52 h-1 bg-gray-100 rounded border-0 dark:bg-gray-700"/>
-            <div className="flex flex-col xl:flex-row ">
-                <div className="flex flex-col bg-white-gray p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
-                    <div className="px-2 mb-2 text-xl flex justify-center">Personal information</div>
-                    <p className="text-center mb-2">Hey, I'm Henry and I'm a computer science student. I frequently work on various projects ranging from backend to full app solutions.</p>
+            <div className='grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-4 gap-0 mt-5 xl:mt-0'>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/java.svg" alt="Dart" width={50} height={50}/>
                 </div>
-                <div className="flex flex-col bg-white-gray p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
-                    <div className="px-2 mb-2 text-xl flex justify-center">Languages I use</div>
-                    <ul className="ml-7 mb-2">
-                        <li>1. Java</li>
-                        <li>2. JavaScript</li>
-                        <li>3. Dart</li>
-                    </ul>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/js.svg" alt="JavaScript" width={50} height={50}/>
                 </div>
-                <div className="bg-white-gray p-5 xl:w-[20vw] w-[80vw] rounded-md m-5">
-                    <div className="px-2 mb-2 text-xl flex justify-center">Programming career</div>
-                    <p className="text-center mb-2">At first I started with programming minecraft plugins in Java, then moved on to JavaScript which I use for the majority of my projects. Just recently I got my hands on Flutter and Dart.</p>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/dart.svg" alt="Dart" width={50} height={50}/>
+                </div>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/sql.svg" alt="SQL" width={50} height={50}/>
+                </div>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/nodejs.svg" alt="IPadOS" width={50} height={55}/>
+                </div>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/flutter.svg" alt="Flutter" width={50} height={50}/>
+                </div>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <div className="flex justify-center">
+                        <Image className="h-[50px]" src="/language/nextjs.svg" alt="NextJS" width={50} height={50}/>
+                    </div>
+                </div>
+                <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
+                    <Image src="/language/reactjs.svg" alt="ReactJS" width={50} height={50}/>
                 </div>
             </div>
         </div>
