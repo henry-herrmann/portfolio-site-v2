@@ -9,7 +9,7 @@ export default function LandingAbout() {
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-left max-w-screen-sm">
                 <div className='xl:flex xl:items-center mb-4 justify-items-start'>
                     <Image className="hidden xl:block fill-current text-green-600" src="/icons/code.svg" alt="Code" width={35} height={25}/>
-                    <h1 className="mt-6 xl:mt-0 font-bold text-3xl pl-4">Proficient at programming</h1>
+                    <h1 className="mt-6 xl:mt-0 font-bold text-2xl md:text-3xl xl:pl-4">Proficient at programming</h1>
                 </div>
                 <p className="text-xl font-light">My name is Henry and I have been programming in many different languages, since the age of 13. As of now, I am studying Computer Science at the Ruhr-Universität in Bochum.</p>
                 <div className='mt-4 flex items-center flex-col sm:flex-row justify-center xl:justify-start'>
@@ -23,7 +23,7 @@ export default function LandingAbout() {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-3 sm:grid-cols-4 xl:grid-cols-4 gap-0 mt-5 xl:mt-0'>
+            <div className='grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-4 gap-0 mt-5 xl:mt-0'>
                 <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
                     <Image src="/language/java.svg" alt="Dart" width={50} height={50}/>
                 </div>
