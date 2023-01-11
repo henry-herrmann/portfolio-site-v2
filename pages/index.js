@@ -39,7 +39,8 @@ export default function Home(/*{ json }*/) {
         <meta property="og:site_name" content="Software Developer" key="ogsitename" />
         <meta property="og:title" content="Henry Herrmann" key="ogtitle" />
         <meta property="og:description" content="Producing reliable software products including mobile apps, REST APIs, etc." key="ogdesc" />
-        <link rel="icon" href="/logo/logo_white.svg" />
+        <link href="/icons/logo.svg" rel="icon" media="(prefers-color-scheme: light)" />
+        <link href="/icons/logo_white.svg" rel="icon" media="(prefers-color-scheme: dark)" />
       </Head>
       <LandingHeader />
       <LandingTitle />

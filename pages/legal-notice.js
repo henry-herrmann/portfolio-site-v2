@@ -14,7 +14,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="icon" href="/logo/logo.jpg" />
             </Head>
-            <div className='min-h-screen bg-gradient-to-r from-gradient-1 2 to-gradient-2'>
+            <div className='min-h-screen'>
                 <LandingHeader />
                 <div className="flex justify-center flex-col mb-14">
                     <div className='flex justify-center'>
