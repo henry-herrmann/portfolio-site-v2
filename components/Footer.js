@@ -7,10 +7,9 @@ export default function Footer(){
             <div className='text-center sm:text-left md:flex-row-reverse md:flex md:justify-between'>
                 <div className='sm:flex sm:flex-grow sm:justify-evenly m-4 md:m-0'>
                     <div className='md:m-10 pt-10 md:p-0'>
-                        <div className='text-white font-bold text-2xl mb-1'>Links</div>
+                        <div className='text-white font-bold text-2xl mb-1'>Documents</div>
                         <div className='flex flex-col'>
-                            <a href="mailto:henry@herrmann.page" className='text-white font-light mt-1'>Contact</a>
-                            <Link href="https://rjks.us"><div className='text-white font-light mt-1'>Rjks</div></Link>
+                            <Link href="https://herrmann.page/legal-notice"><div className='text-white font-light mt-1'>Legal notice</div></Link>
                         </div>
                     </div>
                     <div className='md:m-10 pt-10 md:p-0'>
@@ -21,9 +20,10 @@ export default function Footer(){
                         </div>
                     </div>
                     <div className='md:m-10 pt-10 md:p-0'>
-                        <div className='text-white font-bold text-2xl mb-1'>Documents</div>
+                        <div className='text-white font-bold text-2xl mb-1'>Links</div>
                         <div className='flex flex-col'>
-                            <Link href="https://herrmann.page/legal-notice"><div className='text-white font-light mt-1'>Legal Notice</div></Link>
+                            <a href="mailto:henry@herrmann.page" className='text-white font-light mt-1'>Contact</a>
+                            <Link href="https://rjks.us"><div className='text-white font-light mt-1'>Rjks</div></Link>
                         </div>
                     </div>
                 </div>
