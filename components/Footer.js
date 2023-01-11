@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <div className='bg-herrmann-gray-dark min-h-full'>
             <div className='text-center sm:text-left md:flex-row-reverse md:flex md:justify-between'>
-                <div className='sm:flex sm:flex-grow sm:justify-evenly m-10 md:m-0'>
+                <div className='sm:flex sm:flex-grow sm:justify-evenly m-4 md:m-0'>
                     <div className='md:m-10 pt-10 md:p-0'>
                         <div className='text-white font-bold text-2xl mb-1'>Links</div>
                         <div className='flex flex-col'>
