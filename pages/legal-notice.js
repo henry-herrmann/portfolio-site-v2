@@ -12,7 +12,8 @@ export default function Home() {
                 <title>Henry Herrmann Software Developer</title>
                 <meta name="description" content="Henry Herrmann Software Developer producing reliable software including mobile apps, REST APIs and much more. Coding in JS, Dart and Java" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" href="/logo/logo.jpg" />
+                <link href="/logo/logo.svg" rel="icon" media="(prefers-color-scheme: light)" />
+                <link href="/logo/logo_white.svg" rel="icon" media="(prefers-color-scheme: dark)" />
             </Head>
             <div className='min-h-screen'>
                 <LandingHeader />

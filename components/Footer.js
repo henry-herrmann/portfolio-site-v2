@@ -35,7 +35,7 @@ export default function Footer(){
                         width={90}
                         height={90}
                         />
-                    <p className='text-sm text-white'>herrmann.page © 2022</p>
+                    <p className='text-sm text-white'>Henry Herrmann © 2023</p>
                 </div>
             </div>
         </div>
