@@ -48,7 +48,9 @@ export default function LandingAbout() {
                     </div>
                 </div>
                 <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
-                    <Image src="/language/reactjs.svg" alt="ReactJS" width={50} height={50}/>
+                <div className="flex justify-center">
+                        <Image className="h-[50px]" src="/language/reactjs.svg" alt="ReactJS" width={50} height={50}/>
+                    </div>
                 </div>
             </div>
         </div>
