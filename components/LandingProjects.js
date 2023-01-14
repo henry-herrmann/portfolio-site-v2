@@ -52,7 +52,7 @@ export default function LandingProjects({ json }){
     );*/
 
     return (
-        <div id="projects" className="flex flex-col-reverse xl:flex-row xl:justify-center items-center mb-40 mt-9 xl:mt-28 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">
+        <div id="projects" className="flex flex-col-reverse xl:flex-row xl:justify-center items-center mb-40 mt-9 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">
             <div className='grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-4 mt-5'>
                     <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
                         <Image src="/icons/android.svg" alt="Android" width={50} height={55}/>
@@ -68,11 +68,11 @@ export default function LandingProjects({ json }){
                     </div>
             </div>
             <div className="text-center ml-10 mr-10 xl:m-0 xl:text-right max-w-screen-sm">
-                <div className='flex flex-col-reverse xl:flex-row xl:items-center mb-4 xl:justify-end'>
+                <div className='flex flex-col-reverse xl:flex-row xl:items-center mb-4 xl:mt-8 xl:justify-end'>
                     <h1 className="mt-6 xl:mt-0 font-bold text-2xl md:text-3xl xl:pr-4">Countless projects</h1>
                     <Image className="hidden xl:block" src="/icons/list.svg" alt="Code" width={35} height={25}/>
                 </div>
-                <p className="text-xl font-light">Ever since I started programming, I always seeked for new and more challenging projects, reaching from mobile apps, backend servers to fully fledged chat bots.</p>
+                <p className="text-xl font-light">Ever since I started programming I always seeked new and more challenging projects, reaching from mobile apps, backend servers to fully fledged chat bots.</p>
                 <div className='mt-8 flex items-center flex-col sm:flex-row sm:justify-center xl:justify-end'>
                     <PrimaryButton text="View my Github profile" href="https://github.com/henry-herrmann" />
                 </div>
