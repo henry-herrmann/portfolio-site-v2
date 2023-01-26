@@ -1,5 +1,0 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "de.asta_bochum.campus_app",
-                 "sha256_cert_fingerprints": ["8E:7B:9F:CD:E8:CE:37:E2:97:4D:97:BC:E0:28:E1:5A:74:B0:C8:58:25:65:11:5E:88:3D:77:65:E9:6F:48:4C"] }
-  }]
