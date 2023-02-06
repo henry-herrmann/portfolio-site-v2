@@ -43,9 +43,11 @@ export default function Home(/*{ json }*/) {
         <link href="/logo/logo_white.svg" rel="icon" media="(prefers-color-scheme: dark)" />
       </Head>
       <LandingHeader />
-      <LandingTitle />
-      <LandingAbout />
-      <LandingProjects /*json={json}*//>
+      <div className='bg-light-white text-slate'>
+        <LandingTitle />
+        <LandingAbout />
+        <LandingProjects /*json={json}*//>
+      </div>
       <Footer />
     </Fragment>
   )

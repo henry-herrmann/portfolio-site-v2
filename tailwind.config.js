@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'light-white': '#f9f9f9',
+        'slate': '#080808',
         'herrmann-blue': '#1565c0',
         'herrmann-blue-2': '#1565c0',
         'herrmann-gray': '#E8E8E8',
@@ -14,10 +16,6 @@ module.exports = {
         'herrmann-gray-dark': '#1A1A1A',
         'herrmann-blue-gray': '#cadde8',
         'white-gray': '#F2F3F5',
-        'gradient-1': '#ffffff',
-        'gradient-2': '#788bff',
-        'gradient-3': '#adb5bd',
-        'gradient-4': '#adb5bd'
       }
     },
   },
