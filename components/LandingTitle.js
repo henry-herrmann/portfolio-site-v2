@@ -37,9 +37,7 @@ export default function LandingTitle(){
                     </div>
                 </div>
             </div>
-            <div className='flex items-center justify-center p-7 sm:mt-20 animate-bounce fade-animation transition-opacity duration-[1200ms] delay-[800ms] opacity-0 motion-reduce:transition-none'>
-                
-            </div>
+            <div className='flex items-center justify-center p-7 sm:mt-20'></div>
         </div>
     );
 }
