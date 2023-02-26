@@ -52,7 +52,7 @@ export default function LandingProjects({ json }){
     );*/
 
     return (
-        <div id="projects" className="flex flex-col-reverse xl:flex-row xl:justify-center items-center mb-40 mt-9 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">
+        <div id="projects" className="flex flex-col-reverse xl:flex-row xl:justify-center items-center  mt-9 js-show-on-scroll opacity-0 transition-all duration-[1.5s] motion-reduce:transition-none">
             <div className='grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-4 mt-5'>
                     <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[25px]'>
                         <Image src="/icons/android.svg" alt="Android" width={50} height={55}/>
