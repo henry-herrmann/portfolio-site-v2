@@ -47,8 +47,8 @@ export default function Home(/*{ json }*/) {
         <LandingTitle />
         <LandingAbout />
         <LandingProjects /*json={json}*//>
+        <Footer />
       </div>
-      <Footer />
     </Fragment>
   )
 }
