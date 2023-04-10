@@ -15,12 +15,12 @@ export default function Home() {
                 <link href="/logo/logo.svg" rel="icon" media="(prefers-color-scheme: light)" />
                 <link href="/logo/logo_white.svg" rel="icon" media="(prefers-color-scheme: dark)" />
             </Head>
-            <div className='min-h-screen'>
+            <div className='bg-light-white min-h-full text-slate'>
                 <LandingHeader />
                 <div className="flex justify-center flex-col mb-14">
                     <div className='flex justify-center'>
                         <div className='mr-8 ml-8 text-center max-w-screen-md mt-36 sm:mt-40 ml:m-0 mr:m-0'>
-                            <h1 className='font-bold text-4xl sm:text-5xl mb-4 mr-4 ml-4'>Legal Notice</h1>
+                            <h1 className='font-bold text-4xl sm:text-5xl mb-4 mr-4 ml-4'>Legal notice</h1>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Home() {
                           <br/>
                       </p>
                       <div className='flex justify-center'>
-                          <button className='mr-8 ml-8 mt-10 text-gray-400 text-sm font-light rounded-md text-center'>Last Update: November 27th, 2022</button>
+                          <button className='mr-8 ml-8 mt-10 text-gray-400 text-sm font-light rounded-md text-center'>Last Update: April 10th, 2023</button>
                       </div>
                   </div>
                 </BlockContent>

@@ -30,7 +30,7 @@ export default function Home(/*{ json }*/) {
   return (
     <Fragment>
       <Head>
-        <title>Henry Herrmann Software Developer</title>
+        <title>Henry Herrmann</title>
         <meta name="description" content="Henry Herrmann Software Developer producing reliable software including mobile apps, REST APIs and much more. Coding in JS, Dart and Java" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content="https://herrmann.page" key="ogurl" />

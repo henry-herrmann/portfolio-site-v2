@@ -20,7 +20,7 @@ export default function LandingTitle(){
             <div className='flex justify-center'>
                 <div className="flex justify-center items-center mt-36 sm:mt-48  mb-7 sm:mb-0">
                     <div className='text-center max-w-screen-md xl:mr-[10vw] 2xl:mr-[12vw]'>
-                        <h1 className='w-auto font-bold text-slate-900 text-3xl md:text-5xl mb-6 mr-4 ml-4 fade-animation transition-opacity duration-[1200ms] delay-100 opacity-0 motion-reduce:transition-none'>Henry Herrmann Software Developer</h1>
+                        <h1 className='w-auto font-bold text-slate-900 text-3xl md:text-5xl mb-6 mr-4 ml-4 fade-animation transition-opacity duration-[1200ms] delay-100 opacity-0 motion-reduce:transition-none'>Henry Herrmann</h1>
                         <p className='text-lg md:text-xl font-light mr-4 ml-4 fade-animation transition-opacity duration-[1200ms] delay-[200ms] opacity-0 motion-reduce:transition-none'>Computer science student and programmer</p>
                         <div className='sm:flex sm:justify-center w-[100vw] sm:w-auto fade-animation transition-opacity duration-[1200ms] delay-[300ms] opacity-0 motion-reduce:transition-none'>
                             <div className='mt-10 sm:m-3 sm:mt-7 w-[70vw] sm:w-auto mr-[15vw] ml-[15vw]'><SecondaryButton text='Github Profile' href="https://github.com/henry-herrmann" /></div>
