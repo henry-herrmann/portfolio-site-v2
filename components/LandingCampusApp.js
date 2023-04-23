@@ -14,7 +14,7 @@ export default function LandingCampusApp() {
                 <p className="text-xl font-light">Currently I'm a Software Engineer apart of the development team of the <Link className="underline decoration-sky-500" href="https://app.asta-bochum.de/">Campus App</Link> released by the General Student Council of the Ruhr-University Bochum. My role comes with a large variety of tasks such as front-end development for mobile apps but also developing and utilising backend solutions.</p>
         
             </div>
-            <div className='grid grid-cols-2 sm:grid-cols-4 xl:grid-cols-4 mt-5'>
+            <div className='grid grid-cols-1'>
                     <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[17px]'>
                         <Image src="/icons/campus_app.png" alt="Campus App" width={80} height={10}/>
                     </div>
