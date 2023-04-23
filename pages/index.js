@@ -6,6 +6,7 @@ import LandingTitle from '../components/LandingTitle'
 import LandingAbout from '../components/LandingAbout'
 import LandingProjects from '../components/LandingProjects'
 import Footer from '../components/Footer'
+import LandingCampusApp from '../components/LandingCampusApp'
 
 
 export default function Home(/*{ json }*/) {
@@ -47,6 +48,7 @@ export default function Home(/*{ json }*/) {
         <LandingTitle />
         <LandingAbout />
         <LandingProjects /*json={json}*//>
+        <LandingCampusApp />
         <Footer />
       </div>
     </Fragment>
