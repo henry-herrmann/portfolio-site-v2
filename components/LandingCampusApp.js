@@ -16,7 +16,9 @@ export default function LandingCampusApp() {
             </div>
             <div className='grid xl:grid-cols-4 grid-cols-1'>
                     <div className='bg-herrmann-gray-light h-[100px] w-[100px] rounded-md m-5 p-[17px]'>
-                        <Image src="/icons/campus_app.png" alt="Campus App" width={80} height={10}/>
+                        <Link href="https://app.asta-bochum.de/" className='hover:cursor-pointer'>
+                            <Image src="/icons/campus_app.png" alt="Campus App" width={80} height={10}/>
+                        </Link>
                     </div>
             </div>
         </div>
