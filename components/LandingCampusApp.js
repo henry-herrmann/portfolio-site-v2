@@ -11,7 +11,7 @@ export default function LandingCampusApp() {
                     <Image className="hidden xl:block fill-current text-green-600" src="/icons/code.svg" alt="Code" width={35} height={25}/>
                     <h1 className="mt-6 xl:mt-0 font-bold text-2xl md:text-3xl xl:pl-4 text-slate">My latest project: The Campus App</h1>
                 </div>
-                <p className="text-xl font-light">Currently I'm a Software Engineer apart of the development team of the <Link className="underline decoration-sky-500" href="https://app.asta-bochum.de/">Campus App</Link> released by the General Student Council of the Ruhr-Universität Bochum. My role comes with a large variety of tasks such as front-end development for mobile apps but also developing and utilising backend solutions.</p>
+                <p className="text-xl font-light">Currently, I am the Lead Application Developer of the <Link className="underline decoration-sky-500" href="https://app.asta-bochum.de/">Campus App</Link>, released by the General Student Council of the Ruhr-University Bochum. My role comes with a large variety of tasks, as I coordinate the entire development process of the app, which ranges from UI design to developing backend systems.</p>
         
             </div>
             <div className='grid xl:grid-cols-4 grid-cols-1'>
